@@ -1,0 +1,12 @@
+{
+    "name": "pherserk/sign-provider",
+    "require": {
+        "php": ">=7.0",
+        "pherserk/sign": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pherserk\\SignProvider\\" : "src/"
+        }
+    }
+}

@@ -3,7 +3,7 @@
 namespace Pherserk\SignProvider\component;
 
 use Pherserk\Language\model\LanguageInterface;
-use Pherserk\Sign\model\UnclassifiedSign;
+use Pherserk\SignExtractor\model\UnclassifiedSign;
 use Pherserk\SignProvider\model\ClassifiedSign;
 
 interface SignProviderInterface

@@ -3,7 +3,8 @@
     "require": {
         "php": ">=7.0",
 	"pherserk/language": "dev-master",
-        "pherserk/sign": "dev-master"
+        "pherserk/sign": "dev-master",
+	"pherserk/sign-extractor": "dev-master"
     },
     "autoload": {
         "psr-4": {

@@ -2,12 +2,13 @@
 
 namespace Pherserk\SignProvider\component;
 
+use Pherserk\Language\model\LanguageInterface;
 use Pherserk\Sign\model\SignInterface;
 
 interface SignProviderInterface
 {
     /**
-     * @param string[] $characters
+     * @param SignInterface[] $characters
      * @param LanguageInterface $language
      * @param int $minimumClassificationsCount
      *

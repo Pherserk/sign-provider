@@ -14,6 +14,6 @@ interface SignProviderInterface
      *
      * @return SignInterface[]
      */
-    public function search(string[] $characters, LanguageInterface $language, int $minimumClasificationsCount) : array;
+    public function search(array $characters, LanguageInterface $language, int $minimumClasificationsCount) : array;
 }
 

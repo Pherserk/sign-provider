@@ -2,6 +2,7 @@
     "name": "pherserk/sign-provider",
     "require": {
         "php": ">=7.0",
+	"pherserk/language": "dev-master",
         "pherserk/sign": "dev-master"
     },
     "autoload": {

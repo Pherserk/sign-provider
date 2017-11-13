@@ -13,7 +13,7 @@ interface SignProviderInterface
      * @param LanguageInterface $language
      * @param int $minimumClassificationsCount
      *
-     * @return ClassifiedSign[]|UnclassifiedSign[]
+     * @return ClassifiedSign[]
      */
     public function search(array $characters, LanguageInterface $language, int $minimumClasificationsCount) : array;
 }

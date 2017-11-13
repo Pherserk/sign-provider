@@ -27,14 +27,14 @@ class ClassifiedSign implements SignInterface
         $this->type = $type;
     }
     
-    public function getSign(string $sign) : string
+    public function getSign() : string
     {
-        $this->sign = $sign;
+        return $this->sign;
     }
 
-    public function getType(string $type) : string
+    public function getType() : string
     {
-        $this->type = $type;
+        return $this->type;
     }
 }
 

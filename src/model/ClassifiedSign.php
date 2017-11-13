@@ -1,6 +1,6 @@
 <?php
 
-namspace Pherserk\SignProvider\model;
+namespace Pherserk\SignProvider\model;
 
 use Pherserk\Sign\model\SignInterface;
 
@@ -15,7 +15,7 @@ class ClassifiedSign implements SignInterface
     const TERMINATION_PUNCTATION_TYPE = 'termination'; # E.G.: ), ], ", ', .
     const STARTING_PUNCTATION_TYPE = 'starting';       # E.G.: :, (, [, <, ", '
     const LIGATION_PUNCTATION_TYPE = 'ligation';       # E.G.: -, |, /, \, _
-    const SYMBOL_TYPE = 'symbol'; # %, $, +, @
+    const SYMBOL_TYPE = 'symbol';                      # E.G.: %, $, +, @
 
     private $sign;
  

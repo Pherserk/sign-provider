@@ -1,5 +1,6 @@
 {
     "name": "pherserk/sign-provider",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=7.0",
 	"pherserk/language": "dev-master",
